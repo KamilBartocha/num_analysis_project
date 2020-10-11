@@ -1,6 +1,6 @@
 from householder_methods import householder_algorithm
 import numpy as np
-
+#comment
 def linear_equations_with_householder_algorithm(matrix: np.ndarray, bias: np.ndarray) -> np.ndarray:
     dim = matrix.shape[0]
     bias = np.reshape(bias, newshape=(dim, 1))
